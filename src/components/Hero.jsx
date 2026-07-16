@@ -14,33 +14,8 @@ function Hero() {
   return (
     <header className="hero">
       <div className="app hero__inner">
-        <p className="eyebrow">System Overview</p>
-
+        <p className="eyebrow">Introduction</p>
         <div className="hero-diagram">
-          <svg
-            className="hero-diagram__svg"
-            viewBox="0 0 800 450"
-            preserveAspectRatio="none"
-            aria-hidden="true"
-          >
-            {points.map((p) => (
-              <g key={p.tag}>
-                <line
-                  x1={cx}
-                  y1={cy}
-                  x2={p.x}
-                  y2={p.y}
-                  stroke="var(--cyan)"
-                  strokeWidth="1.5"
-                  vectorEffect="non-scaling-stroke"
-                  opacity="0.55"
-                />
-                <circle cx={p.x} cy={p.y} r="4" fill="var(--amber)" />
-              </g>
-            ))}
-            <circle cx={cx} cy={cy} r="5" fill="var(--paper)" />
-          </svg>
-
           {points.map((p) => (
             <div
               key={p.tag}

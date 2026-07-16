@@ -7,10 +7,10 @@ export const profile = {
   role: "Informatics - Data Science, University of Washington",
   tagline:
     "I build agentic systems that cut down the friction between people and the services they depend on.",
-  location: "Seattle, WA",
+  location: "Seattle, WA and Washington DC",
   email: "sgoh6@uw.edu",
-  linkedin: "linkedin.com/in/samantha-oh",
-  github: "[github.com/yourusername]",
+  linkedin: "https://linkedin.com/in/samantha-oh",
+  github: "https://github.com/samanthaoh",
   resumeUrl: "/resume.pdf",
 };
 
