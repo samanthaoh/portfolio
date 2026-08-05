@@ -14,7 +14,12 @@ export const profile = {
   resumeUrl: "/resume.pdf",
 };
 
-// Labels used in the hero schematic — the "facets" of your work.
+// Short status line for the hero, styled like Austin Lee's "Currently leading design at Pogo."
+// Keep it to one sentence — current role, then a quick nod to what came before.
+export const status =
+  "Currently building agents at CACI International. Previously NT Concepts & GMU research.";
+
+// Labels used in the hero facets row — the "facets" of your work.
 export const facets = [
   { tag: "A", label: "Agentic AI Systems" },
   { tag: "B", label: "Data Science" },
